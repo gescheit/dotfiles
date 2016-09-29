@@ -170,8 +170,6 @@ alias grep="grep --color"
 alias ifstat="systat -ifstat 1 scale mbit "
 alias sshprepare=eval \`ssh-agent\`\; ssh-add
 alias gst="git status"
-alias balancer="sudo -E make -C /usr/local/balancers/"
-alias router="sudo -E make -C /usr/local/routers/"
 #поиск в истории команд
 autoload -U predict-on
 zle -N predict-on
